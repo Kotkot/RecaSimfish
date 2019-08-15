@@ -1,0 +1,66 @@
+
+### Functions 
+
+  library(MASS)
+  source(paste(pathFunctionDir,"SimulateFishery",sep="")) 
+  source(paste(pathFunctionDir,"Spatial.R",sep=""))
+  source(paste(pathFunctionDir,"SampleParFromFittedDistECA",sep=""))
+  source(paste(pathFunctionDir,"FindpAmatrix",sep=""))
+  source(paste(pathFunctionDir,"FindExpectedWeight",sep=""))
+  source(paste(pathFunctionDir,"ExtractParestECArunLGA",sep=""))
+  source(paste(pathFunctionDir,"ExtractParestECArunWGL",sep=""))
+  source(paste(pathFunctionDir,"ExtractParestECArunAgedist",sep=""))
+  source(paste(pathFunctionDir,"LengthGivenAge",sep=""))
+  source(paste(pathFunctionDir,"WeightGivenLength",sep=""))
+  source(paste(pathFunctionDir,"GearConverteSalesnoteToECAcode",sep=""))
+  source(paste(pathFunctionDir,"RegionConverteSalesnoteToECAcode",sep=""))
+#Magne
+#source(paste(pathFunctionDir,"make.consistent.matrix.r",sep=""))
+#source(paste(pathFunctionDir,"interpol.r",sep=""))
+#source(paste(pathFunctionDir,"interpolate.between.r",sep=""))
+#source(paste(pathFunctionDir,"interpolate.within.and.between.r",sep=""))
+#source(paste(pathFunctionDir,"prepare.AllFarmsHistoricalData.r",sep=""))
+#source(paste(pathFunctionDir,"weighted.sum.r",sep=""))
+#source(paste(pathFunctionDir,"divkalender.r",sep=""))
+#source(paste(pathFunctionDir,"ymd.num2char.r",sep=""))
+#source(paste(pathFunctionDir,"yw.num2char.r",sep=""))
+#source(paste(pathFunctionDir,"predict.AllFarmsFutureData.r",sep=""))
+#source(paste(pathFunctionDir,"predict.Y.AllFarms.r",sep=""))
+
+
+### Functions for reading and preparing production data for each "customer" farm
+#source(paste(pathFunctionDir,"FunctionsDataPreparation.r",sep=""))
+#source(paste(pathFunctionDir,"production.data.from.excel.to.csv.r",sep=""))
+#source(paste(pathFunctionDir,"production.data.from.csv.to.intermediate.r",sep=""))
+
+### Functions for merging and preparing all data for each "customer" farm
+#source(paste(pathFunctionDir,"divkalender.r",sep=""))
+#source(paste(pathFunctionDir,"ymd.num2char.r",sep=""))
+#source(paste(pathFunctionDir,"yw.num2char.r",sep=""))
+#source(paste(pathFunctionDir,"extract.numbers.from.stringvec.r",sep=""))
+#source(paste(pathFunctionDir,"make.weight.r",sep=""))
+#source(paste(pathFunctionDir,"treatname.to.standardtreat.r",sep=""))
+#source(paste(pathFunctionDir,"extract.and.expand.r",sep=""))
+#source(paste(pathFunctionDir,"make.covariates.r",sep=""))
+#source(paste(pathFunctionDir,"make.treatment.r",sep=""))
+#source(paste(pathFunctionDir,"make.FullData.historical.r",sep=""))
+#source(paste(pathFunctionDir,"make.FullData.future.r",sep=""))
+
+
+
+#source(paste(pathFunctionDir,"sim.from.merds.to.counts.r",sep=""))
+#source(paste(pathFunctionDir,"summarise.lice.predictions.r",sep=""))
+#source(paste(pathFunctionDir,"FullData.from.merds.to.farm.r",sep=""))
+#source(paste(pathFunctionDir,"sim.from.merds.to.farm.r",sep=""))
+#source(paste(pathFunctionDir,"vec.from.merds.to.farm.r",sep=""))
+#source(paste(pathFunctionDir,"calc.pred.stat.r",sep=""))
+#source(paste(pathFunctionDir,"plot.4panels.treat.obs.expected.r",sep=""))
+#source(paste(pathFunctionDir,"split.FullData.r",sep=""))
+#source(paste(pathFunctionDir,"split.sim.r",sep=""))
+#source(paste(pathFunctionDir,"split.vec.r",sep=""))
+#source(paste(pathFunctionDir,"make.AllData.r",sep=""))
+#source(paste(pathFunctionDir,"merge.AllData.r",sep=""))
+#source(paste(pathFunctionDir,"merge.AllData.at.level.r",sep=""))
+#source(paste(pathFunctionDir,"merge.FullData.r",sep=""))
+#source(paste(pathFunctionDir,"merge.summary.r",sep=""))
+#source(paste(pathFunctionDir,"summarise.output.r",sep=""))

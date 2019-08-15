@@ -1,0 +1,22 @@
+Package: RpackageSimFishery
+Version: 1.0.0
+Title: Simulate a fishery (age, length and weight of individual fish).
+Description: Functions for reading sale notes data and parameter estimates from a fitted ECA model,
+     and thereafter simulating a fishery: simulate age, length given age and weigth given length.
+     Sale notes data is a dataobject with one line per landing and the columns:
+     Boat, S, G, R, Weight, L, Boat2, LwiB  (Boat: orig. boat number, S: season, G: gear,
+     R: region (ECA-region 1:9), Weight: total weight in landing (converted to gram),
+     L: landing, Boat2: boat number within (S,G,R), LwiB: landing number within boat).
+     Output is a simulated fishery (a list object, with elements Boat, S,  G, R,
+     Weight, L,  Boat2, LwiB,  ExpectedWeight, Nofish, ages,  LGA (length given age),
+     WGL (weight given length)).
+Authors@R: person("Tvete", "Ingunn Fride", , "ingunn.fride.tvete@nr.no", c("aut", "cre"))
+License: file LICENCE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.1.0
+NeedsCompilation: no
+Packaged: 2019-04-10 13:21:41 UTC; ingunnt
+Author: Tvete Ingunn Fride [aut, cre]
+Maintainer: Tvete Ingunn Fride <ingunn.fride.tvete@nr.no>
