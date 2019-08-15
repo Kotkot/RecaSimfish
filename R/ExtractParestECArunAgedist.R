@@ -22,10 +22,10 @@ ExtractParestECArunAgedist<-function(fit) {
       alpha_season[i,j]<-mean(fit$age$Int$seas[i,j,])
     }
   }
-  alpha_gear<-matrix(0,nrow=A,ncol=S)
+  alpha_gear<-matrix(0,nrow=A,ncol=G)
   for (i in 1:A)
   {
-    for (j in 1:S)
+    for (j in 1:G)
     {
       alpha_gear[i,j]<-mean(fit$age$Int$gear[i,j,])
     }
