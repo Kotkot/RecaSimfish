@@ -17,9 +17,9 @@ ExtractParestECArunLGA<-function(fit) {
     beta_season[i]<-mean(fit$lga$Int$seas[1,i,])
   }
   beta_gear<-rep(0,G)
-  for (i in 1:G)
+  for (j in 1:G)
   {
-    beta_gear[i]<-mean(fit$lga$Int$gear[1,i,])
+    beta_gear[j]<-mean(fit$lga$Int$gear[1,j,])
   }
   
   beta_1<-mean(fit$lga$Slp$Const)

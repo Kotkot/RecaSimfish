@@ -18,12 +18,12 @@ ExtractParestECArunWGL<-function(fit) {
     delta_season[i]<-mean(fit$wgl$Int$seas[1,i,])
   }
   delta_gear<-rep(0,G)
-  for (i in 1:G)
+  for (j in 1:G)
   {
-    delta_gear[i]<-mean(fit$wgl$Int$gear[1,i,])
+    delta_gear[j]<-mean(fit$wgl$Int$gear[1,j,])
   }
   
-  delta_1<-mean(fit$wgl$Slp$Const)
+  delta_1<-mean(fit$wgl$Slp$Const[1,1,])
   
   tau_nu_region<-mean(fit$wgl$Int$tau.area)
   tau_nu_boat<-mean(fit$wgl$Int$tau.boat)
